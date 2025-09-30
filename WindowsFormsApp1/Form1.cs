@@ -395,7 +395,7 @@ namespace WindowsFormsApp1
     public class GptNanoStreamingClient
     {
         private static readonly HttpClient client = new HttpClient();
-        private const string apiKey = "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";
+        private const string apiKey = "";
 
         private const string endpoint = "https://api.openai.com/v1/chat/completions";
 
