@@ -397,7 +397,7 @@ namespace WindowsFormsApp1
         private static readonly HttpClient client = new HttpClient();
         private const string apiKey = "";
 
-        private const string endpoint = "https://api.openai.com/v1/chat/completions";
+        private const string endpoint = "";
 
         public async Task StreamGrammarCorrectionAsync(
             string inputText,
